@@ -1,7 +1,16 @@
 <template>
     <div>
-        <b-navbar type="light" variant="success">
-            <b-navbar-brand href="#">Write It Out</b-navbar-brand>
+        <b-navbar toggleable="lg" type="light" variant="primary">
+            <b-navbar-brand href="#">Planning For Canada</b-navbar-brand>
+            <b-navbar-toggle target="hamburger" />
+
+            <b-collapse id="hamburger" is-nav>
+                <b-navbar-nav>
+                    <b-nav-item to="/">Home</b-nav-item>
+                    <b-nav-item to="/archive">Archive</b-nav-item>
+                    <b-nav-item to="/about">About</b-nav-item>
+                </b-navbar-nav>
+            </b-collapse>
         </b-navbar>
     </div>
 </template>
