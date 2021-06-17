@@ -1,7 +1,7 @@
 <template>
     <div>
         <b-navbar toggleable="lg" type="light" variant="primary">
-            <b-navbar-brand href="#">Planning For Canada</b-navbar-brand>
+            <b-navbar-brand href="#">Write It Out</b-navbar-brand>
             <b-navbar-toggle target="hamburger" />
 
             <b-collapse id="hamburger" is-nav>
