@@ -1,6 +1,25 @@
-//Define variable defaults
+//Define default variables
 
 
-// Then import Bootstrap an BootstrapVue SCSS files (order is important)
+// Then import Bootstrap and BootstrapVue SCSS files (order is important)
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/bootstrap-vue/src/index.scss';
+
+//Define app-wide CSS
+.container, 
+.container-fluid, 
+.container-xl, 
+.container-lg, 
+.container-md, 
+.container-sm  {
+    background-color: white;
+    text-align: center;
+}
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}

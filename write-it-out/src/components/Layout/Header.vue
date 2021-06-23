@@ -1,7 +1,7 @@
 <template>
     <div>
-        <b-navbar toggleable="lg" type="light" variant="primary">
-            <b-navbar-brand href="#">Write It Out</b-navbar-brand>
+        <b-navbar toggleable="lg" type="light">
+            <b-navbar-brand href="#">Our Journey</b-navbar-brand>
             <b-navbar-toggle target="hamburger" />
 
             <b-collapse id="hamburger" is-nav>
@@ -28,5 +28,8 @@ export default class Header extends Vue{
 </script>
 
 <style scoped>
-
+.navbar {
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+}
 </style>
