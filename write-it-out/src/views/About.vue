@@ -3,6 +3,7 @@
     <div class="about">
       <h1 id="about-title">About CJ and Rhonda</h1>
       <!-- Add image and styling here. Next time! -->
+      <BImg src="../static/images/ThisIsUs.jpg" fluid alt="Rhonda and CJ"></BImg>
       <div>
         <p>
           We are CJ and Rhonda. We are married with a joined family that we adore. We work very hard to provide, but lately felt a stagnation in our lives.
@@ -27,8 +28,14 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import { 
+  BImg,
+  BContainer,
+} from 'bootstrap-vue';
 @Component<About>({
   components: {
+    BImg,
+    BContainer,
   },
 })
 export default class About extends Vue {}
