@@ -1,0 +1,9 @@
+$colorDarkTan: #ddaf94;
+$colorMediumTan: #e8cebf;
+$colorDarkGreen: #266150;
+$colorDarkBrown: #4f4846;
+$colorLightTan: #fdf8f5;
+
+@mixin setBorder() {
+    border: 3px solid $colorDarkGreen;
+}

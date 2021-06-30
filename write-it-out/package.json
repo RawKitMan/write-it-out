@@ -33,7 +33,7 @@
     "jquery": "^3.6.0",
     "prettier": "^2.2.1",
     "sass": "^1.32.13",
-    "sass-loader": "^8.0.2",
+    "sass-loader": "^10.1.1",
     "tslib": "^1.14.1",
     "typescript": "^4.1.5",
     "vue": "^2.6.12",
