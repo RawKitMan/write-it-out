@@ -3,14 +3,14 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-// CSS 
-import { BootstrapVue, IconsPlugin, NavbarPlugin } from 'bootstrap-vue';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap-vue/dist/bootstrap-vue.css';
-import './css/app.scss';
+// CSS
+import { BootstrapVue, IconsPlugin, NavbarPlugin } from "bootstrap-vue";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue/dist/bootstrap-vue.css";
+import "./css/app.scss";
 
 // polyfill
-import 'core-js';
+import "core-js";
 
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue);

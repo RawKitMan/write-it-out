@@ -14,8 +14,10 @@
 .container-sm  {
     background-color: white;
     text-align: center;
-    height: 100%;
+    height: auto;
+    min-height: 90%;
     @include setBorder();
+    margin-top: 4.5em;
 }
 h1 {
     font-family: 'Source Sans Pro', sans-serif;

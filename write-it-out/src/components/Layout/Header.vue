@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="light">
+    <b-navbar toggleable="lg" type="light" fixed="top">
       <b-navbar-brand href="#">Our Journey</b-navbar-brand>
       <b-navbar-toggle target="hamburger" />
 
